@@ -1,0 +1,92 @@
+@font-face {
+    font-family: veneric;
+    src: url(fonts/VINERITC.TTF);
+}
+@font-face {
+    font-family: tempstic;
+    src: url(fonts/TEMPSITC.TTF);
+}
+@font-face {
+    font-family: tekton;
+    src: url(fonts/Tekton.otf);
+}
+body{
+    margin:0;padding:0;
+}
+#first_section{
+    width:100%;
+    background-color: #8e44ad;
+    height:704px;
+}
+#kalagola{
+
+}
+#punchline{
+    position: absolute;
+    top:145px;
+    left:139px;
+    width:496px;
+    height:251px;
+}
+#punchline  p{
+    text-align: center;
+    font-family: veneric;
+    font-size: 4.2em;
+    color:#ffffff;
+    text-shadow: 5px 5px black;
+    line-height: 73px;
+}
+
+#titlesection{
+    position: absolute;
+    left:182px;
+    top:422px;
+    font-family: tempstic;
+    color:#ffffff;
+    text-shadow: 5px 5px black;
+    height: 128px;
+    width: 470px;
+}
+#titlesection h1{
+    font-size: 70px;
+}
+#titlesection p{
+    font-size: 25px;
+    font-family: tekton;
+    margin-top: -45px;
+    margin-left: 17px;
+}
+#navigation{
+    position: absolute;
+    top:21px;
+    left:759px;
+}
+#navigation ul{
+    list-style: none;
+    font-family: tekton;
+    font-size: 30px;
+    
+}
+#navigation ul li{
+    display:inline;
+    margin-right: 25px;
+}
+#navigation ul li a{
+    
+    color:white;
+    text-decoration: none;
+    border-bottom: solid 2px white;
+    //padding-bottom: 0px;
+    opacity: 0.6;
+}
+
+#navigation ul li a:hover{
+    opacity:1;
+}
+
+#chhotaDexter{
+    position: absolute;
+    left:851px;
+    top:144px;
+    width:467px;
+}
